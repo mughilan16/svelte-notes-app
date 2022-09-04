@@ -9,7 +9,7 @@
   };
 </script>
 
-<div class="p-8 flex flex-row w-full justify-items-center">
+<div class="p-8 flex flex-row w-full justify-center">
   <div class="mr-10">
     <h1 class="text-4xl text-center m-5">TODO</h1>
     <TodoCard {myTodo} />

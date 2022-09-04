@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Todo } from "";
+  import type { Todo } from "../types/todo.svelte";
   export let myTodo: Todo;
 </script>
 
@@ -9,12 +9,19 @@
   flex flex-row items-center"
 >
   <button
-    class="list-none p-6 text-gray-50 text-center 
-      rounded-md hover:shadow-md">{"<"}</button
+    class="flex items-center justify-center
+    rounded-md border border-transparent bg-indigo-600
+    px-0 py-3 text-base font-medium text-white hover:bg-indigo-700
+    md:py-4 md:px-8 md:text-lg">{"<"}</button
   >
   <div>
     <h1 class="text-3xl my-2">{myTodo.message}</h1>
     <h1 class="text-1xl">{myTodo.description}</h1>
   </div>
-  <button>{">"}</button>
+
+  <button
+    class="flex items-center justify-center
+    rounded-md border border-transparent bg-indigo-600
+    px-0 py-3 text-base font-medium text-white hover:bg-indigo-700
+    md:py-4 md:px-8 md:text-lg">{">"}</button>
 </div>
