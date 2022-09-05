@@ -10,5 +10,5 @@
     shadow-md active:shadow-lg flex-row
     items-center justify-start"
 >
-  <img class="rounded-sm" src={image.src} alt={image.alt} />
+  <img class="rounded-md" src={image.src} alt={image.alt} />
 </div>

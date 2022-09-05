@@ -15,11 +15,11 @@
     class="overflow-hidden rounded bg-white
     shadow-md ring-1 ring-black ring-opacity-5 h-full w-full p-5"
   >
-    {#each Elements.checkboxs as checkbox}
-      <Checkbox {checkbox} />
-    {/each}
     {#each Elements.images as image}
       <Image {image} />
+    {/each}
+    {#each Elements.checkboxs as checkbox}
+      <Checkbox {checkbox} />
     {/each}
     {#each Elements.labels as label}
       <Label {label} />
