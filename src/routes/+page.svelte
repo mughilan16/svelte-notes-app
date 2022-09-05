@@ -18,7 +18,7 @@
     {#each Elements.images as image}
       <Image {image} />
     {/each}
-    {#each Elements.checkboxs as checkbox}
+    {#each Elements.checkboxes as checkbox}
       <Checkbox {checkbox} />
     {/each}
     {#each Elements.labels as label}

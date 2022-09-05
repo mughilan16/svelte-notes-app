@@ -3,7 +3,7 @@
   import type { ImageType } from "../types/image.svelte";
   import type { ElementType } from "../types/elements.svelte";
   import type { LabelType } from "../types/label.svelte";
-  let myCheckboxs: CheckboxType = {
+  let myCheckboxes: CheckboxType = {
     message: "Complete Todo App",
     checked: false,
     position: { x: 0, y: 0 },
@@ -21,7 +21,7 @@
     position: { x: 0, y: 0 },
   };
   export let Elements: ElementType = {
-    checkboxs: [myCheckboxs],
+    checkboxes: [myCheckboxes],
     images: [myImages],
     labels: [myLabel],
   };

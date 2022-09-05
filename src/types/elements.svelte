@@ -4,7 +4,7 @@
   import type { LabelType } from "./label.svelte";
 
   export type ElementType = {
-    checkboxs: CheckboxType[];
+    checkboxes: CheckboxType[];
     images: ImageType[];
     labels: LabelType[];
   };
