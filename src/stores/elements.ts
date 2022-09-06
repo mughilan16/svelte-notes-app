@@ -2,6 +2,10 @@ import type { CheckboxType } from "../types/checkbox";
 import type { ImageType } from "../types/image";
 import type { ElementType } from "../types/elements";
 import type { LabelType } from "../types/label";
+
+import type { Writable } from "svelte/store";
+import { writable } from "svelte/store";
+
 let myCheckboxes: CheckboxType = {
   message: "Complete Todo App",
   checked: false,
@@ -15,11 +19,6 @@ let myCheckboxes2: CheckboxType = {
 let myCheckboxes3: CheckboxType = {
   message: "Implement Lifecycle",
   checked: false,
-  position: { x: 0, y: 0 },
-};
-let myImages: ImageType = {
-  src: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/09/WHAT-IS-WEB-DESIGN.jpg?auto=format&q=60&w=1860&h=1046.25&fit=crop&crop=faces",
-  alt: "My Image",
   position: { x: 0, y: 0 },
 };
 let myImages2: ImageType = {
@@ -40,8 +39,14 @@ let myLabel2: LabelType = {
     is helpful for finding bugs in types.`,
   position: { x: 0, y: 0 },
 };
-export let Elements: ElementType = {
-  checkboxes: [myCheckboxes, myCheckboxes2, myCheckboxes3],
-  images: [myImages, myImages2],
-  labels: [myLabel, myLabel2],
-};
+// export let Elements: ElementType = {
+//   checkboxes: [myCheckboxes, myCheckboxes2, myCheckboxes3],
+//   images: [myImages, myImages2],
+//   labels: [myLabel, myLabel2],
+// };
+
+export const Elements: Writable<ElementType> = writable({
+  checkboxes: [],
+  images: [],
+  labels: [],
+});

@@ -7,7 +7,7 @@
 <div
   use:draggable
   class="flex w-80 
-    shadow-md active:shadow-xl flex-row
+    drop-shadow-xl active:drop-shadow-2xl shadow-black flex-row
     items-center justify-start"
 >
   <img src={image.src} alt={image.alt} />
