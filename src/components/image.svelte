@@ -4,8 +4,6 @@
   export let image: ImageType;
 </script>
 
-
-
 <div
   use:draggable
   class="flex w-80 
