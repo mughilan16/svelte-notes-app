@@ -10,5 +10,5 @@
     shadow-md active:shadow-xl flex-row
     items-center justify-start"
 >
-  <img class="rounded-md" src={image.src} alt={image.alt} />
+  <img src={image.src} alt={image.alt} />
 </div>

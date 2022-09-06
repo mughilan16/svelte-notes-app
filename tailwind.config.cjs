@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'canvas' : "url('https://t3.ftcdn.net/jpg/03/41/31/80/360_F_341318068_0SzEc9byllL4XCZHnrsl4dAnIRagjDta.jpg')"
+        'canvas' : "url('https://i.pinimg.com/736x/a9/aa/3e/a9aa3e2c5bd14630a6c43dc4c12f71d5.jpg')"
       }
     }
   }
