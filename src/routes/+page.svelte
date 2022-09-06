@@ -13,10 +13,10 @@
 <NavBar />
 <div class="flex flex-row">
   <SideBar />
-  <div class="flex flex-row w-full h-full justify-center">
+  <div class="flex flex-row w-full h-full justify-center bg-canvas">
     <div
-      class="overflow-hidden rounded bg-white
-    shadow-md ring-1 ring-black ring-opacity-5 h-full w-full p-5"
+      class="overflow-hidden rounded shadow-md ring-1
+       ring-black ring-opacity-5 h-full w-full p-5"
     >
       {#each Elements.images as image}
         <Image {image} />

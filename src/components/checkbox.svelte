@@ -16,7 +16,7 @@
     defaultPosition: { x: checkbox.position.x, y: checkbox.position.y },
   }}
   class="list-none bg-gray-100 text-gray-800 
-  rounded-sm shadow-md active:shadow-lg flex flex-row
+  rounded-sm shadow-md active:shadow-xl flex flex-row
   items-center justify-start m-3 w-60"
 >
   <button
