@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { LabelType } from "../types/label.svelte";
+  import type { LabelType } from "../types/label";
   import { draggable } from "svelte-drag";
   export let label: LabelType;
 </script>

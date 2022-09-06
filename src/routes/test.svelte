@@ -1,8 +1,8 @@
 <script lang="ts" context="module">
-  import type { CheckboxType } from "../types/checkbox.svelte";
-  import type { ImageType } from "../types/image.svelte";
-  import type { ElementType } from "../types/elements.svelte";
-  import type { LabelType } from "../types/label.svelte";
+  import type { CheckboxType } from "../types/checkbox";
+  import type { ImageType } from "../types/image";
+  import type { ElementType } from "../types/elements";
+  import type { LabelType } from "../types/label";
   let myCheckboxes: CheckboxType = {
     message: "Complete Todo App",
     checked: false,

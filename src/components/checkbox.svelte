@@ -1,6 +1,6 @@
 <script lang="ts">
   // Type Imports
-  import type { CheckboxType } from "../types/checkbox.svelte";
+  import type { CheckboxType } from "../types/checkbox";
   // Import draggable
   import { draggable } from "svelte-drag";
   export let checkbox: CheckboxType;

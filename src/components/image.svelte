@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { ImageType } from "../types/image.svelte";
+  import type { ImageType } from "../types/image";
   import { draggable } from "svelte-drag";
   export let image: ImageType;
 </script>
