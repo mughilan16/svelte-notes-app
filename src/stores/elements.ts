@@ -1,3 +1,4 @@
+// Importing Type
 import type { CheckboxType } from "../types/checkbox";
 import type { ImageType } from "../types/image";
 import type { ElementType } from "../types/elements";
@@ -39,14 +40,14 @@ let myLabel2: LabelType = {
     is helpful for finding bugs in types.`,
   position: { x: 0, y: 0 },
 };
-// export let Elements: ElementType = {
-//   checkboxes: [myCheckboxes, myCheckboxes2, myCheckboxes3],
-//   images: [myImages, myImages2],
-//   labels: [myLabel, myLabel2],
-// };
-
-export const Elements: Writable<ElementType> = writable({
-  checkboxes: [],
-  images: [],
-  labels: [],
+export let Elements: Writable<ElementType> = writable({
+  checkboxes: [myCheckboxes, myCheckboxes2, myCheckboxes3],
+  images: [myImages2],
+  labels: [myLabel, myLabel2],
 });
+
+// export const Elements: Writable<ElementType> = writable({
+//   checkboxes: [],
+//   images: [],
+//   labels: [],
+// });
